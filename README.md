@@ -1,58 +1,58 @@
-# AstanaItUniversity_SE2314
+# Astana university_se2314
 
-AstanaItUniversity_SE2314 — это смарт-контракт, реализующий токен стандарта ERC-20 с дополнительной функциональностью для получения и отображения информации о транзакциях.
-
----
-
-## 📋 Описание
-
-Этот смарт-контракт включает базовые возможности токена стандарта ERC-20 с дополнительными функциями для работы с транзакциями:
-- **Инициализация:** При развертывании создаётся 2000 токенов, которые назначаются создателю контракта.
-- **Логирование транзакций:** Каждая транзакция записывается в событие с подробной информацией.
-- **Получение информации о транзакциях:**
-  - Адрес отправителя.
-  - Адрес получателя.
-  - Временная метка последней транзакции в удобном для чтения формате.
+AstanaItUniversity_SE2314 is a smart contract implementing an ERC-20 standard token with additional functionality for receiving and displaying transaction information.
 
 ---
 
-## 🛠️ Функциональность
+## 📋 Description
 
-### Основные особенности
-1. **Токен стандарта ERC-20:**
-   - Название: `AstanaItUniversity_SE2314`.
-   - Символ: `AIU2314`.
-   - Десятичные разряды: `18`.
-
-2. **Дополнительные функции:**
-   - **Получение временной метки последней транзакции:** возвращает её в формате `день-месяц-год`.
-   - **Адреса участников транзакции:** можно получить адрес отправителя и получателя.
-
-3. **Логирование:** В каждую транзакцию записываются следующие данные:
-   - Отправитель.
-   - Получатель.
-   - Сумма.
-   - Временная метка.
+This smart contract includes the basic capabilities of the standard ERC-20 token with additional functions for working with the transaction:
+- **Initialization:** During deployment, 2,000 tokens are created, which are called the creator's contract.
+- **Transaction logging:** Each transaction is recorded together with the relevant information.
+- **Getting information about transactions:**
+Is the sender's address.
+  - Recipient's address.
+  - Timestamp of recent transactions in an easy-to-read format.
 
 ---
 
-## ⚙️ Технические требования
+## 🛠️ Functionality
 
-- **Среда разработки:** Hardhat
-- **Язык программирования:** Solidity `^0.8.20`
-- **Библиотеки и зависимости:**
-  - `@openzeppelin/contracts`
-  - `hardhat`
-  - `@nomiclabs/hardhat-ethers`
-  - `chai`
-  - `ethers`
+### Main Features
+1. ** ERC-20 Station token:**
+- Name: 'Astana UNIVERSITY_SE2314'.
+   - Name: 'AIU2314'.
+   - Decimal digits: `18'.
+
+2. **Additional functions:**
+   - **Getting the timestamp of the last transaction:** returns it in the 'day-month-year' format.
+   - **Address of the transaction participant:** You can get the address of the sender and recipient.
+
+3. **Logging:** The following data is recorded in each transaction:
+- Sender.
+   - The recipient.
+   - The amount.
+   - A timestamp.
 
 ---
 
-## 🚀 Установка и запуск
+## ⚙️ Technical requirements
 
-1. **Склонируйте репозиторий:**
+- **Development Environment:** Helmet
+- **Programming language:** accuracy ' ^0.8.20`
+- **Libraries and freezes:**
+- '@openzeppelin/contract`
+- 'hard drive`
+  - '@nomiclabs/hard drives-ether`
+  - 'tea`
+- 'on the air`
 
-   ```bash
-   git clone https://github.com/your-repository.git
-   cd your-repository
+---
+
+## 🚀 Installation and launch
+
+1. **Copy the repository:**
+
+   "clone bash
+git clone https://github.com/your-repository.git
+create your repository
