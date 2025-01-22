@@ -25,7 +25,7 @@ git clone https://github.com/your-repository.git
 cd your-repository
 ```
 
-![Clone Repository](./screenshots/clone_repository.png)
+
 
 ---
 
@@ -35,7 +35,7 @@ cd your-repository
 npm install
 ```
 
-![Install Dependencies](./screenshots/install_dependencies.png)
+
 
 ---
 
