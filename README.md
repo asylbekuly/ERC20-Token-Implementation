@@ -45,7 +45,7 @@ npm install
 npx hardhat test
 ```
 
-![Run Tests](./screenshots/run_tests.png)
+![Run Tests](./screenshots/runTests.png)
 
 ---
 
@@ -139,7 +139,7 @@ Here are the key screenshots of the project setup and execution:
    ![Install Dependencies](./screenshots/install_dependencies.png)
 
 3. Run tests:
-   ![Run Tests](./screenshots/run_tests.png)
+   ![Run Tests](./screenshots/runTests.png)
 
 4. Deploy contract:
    ![Deploy Contract](./screenshots/deploy_contract.png)
