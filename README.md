@@ -57,7 +57,7 @@ Run a local blockchain (e.g., Ganache), then deploy the contract:
 npx hardhat run scripts/deploy.js --network ganache
 ```
 
-![Deploy Contract](./screenshots/deploy_contract.png)
+![Deploy Contract](./screenshots/deployContract.png)
 
 ---
 
@@ -142,7 +142,7 @@ Here are the key screenshots of the project setup and execution:
    ![Run Tests](./screenshots/runTests.png)
 
 4. Deploy contract:
-   ![Deploy Contract](./screenshots/deploy_contract.png)
+   ![Deploy Contract](./screenshots/deployContract.png)
 
 5. Example usage:
    - Check balance.
