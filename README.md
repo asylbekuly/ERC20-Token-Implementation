@@ -117,16 +117,7 @@ await token.transfer(addr1.address, ethers.utils.parseUnits("100", 18));
 
    ![Get Timestamp](./screenshots/get_timestamp.png)
 
-4. Retrieve transaction details by index:
 
-   ```javascript
-   const txn = await token.getTransaction(0); // Index of the first transaction
-   console.log("Transaction details:", txn);
-   ```
-
-   ![Transaction Details](./screenshots/transaction_details.png)
-
----
 
 ## 📷 Screenshots
 
